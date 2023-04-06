@@ -8,13 +8,8 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[][] chess = new int[n][n];
-        for(int[] arr : chess){
-            for(int ele : arr){
-                ele = sc.nextInt();
-            }
-        }
         System.out.println();
         s.N_Queens(chess, 0, n);
-        System.out.println(Solution.count);
+        System.out.println("Number of possible solutions: "+Solution.count);
     }
 }
