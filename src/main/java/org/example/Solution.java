@@ -49,7 +49,7 @@ public class Solution {
         for(int[] arr : chess){
             for(int ele : arr){
                if(ele == 1) System.out.print("Q ");
-               else System.out.print("0 ");
+               else System.out.print("# ");
             }
             System.out.println();
         }
